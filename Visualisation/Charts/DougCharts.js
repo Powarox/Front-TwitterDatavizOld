@@ -1,6 +1,6 @@
-const ctx_pie = document.getElementById('pieChart').getContext('2d');
-const pieChart = new Chart(ctx_pie, {
-    type: 'pie',
+const ctx_doug = document.getElementById('dougChart').getContext('2d');
+const dougChart = new Chart(ctx_doug, {
+    type: 'doughnut',
     data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [{

@@ -1,5 +1,5 @@
-const ctx3 = document.getElementById('lineChart').getContext('2d');
-const myChart3 = new Chart(ctx3, {
+const ctx_line = document.getElementById('lineChart').getContext('2d');
+const lineChart = new Chart(ctx_line, {
     type: 'line',
     data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
