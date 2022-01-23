@@ -7,9 +7,32 @@
     <body>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js" integrity="sha512-TW5s0IT/IppJtu76UbysrBH9Hy/5X41OTAbQuffZFU6lQ1rdcLHzpU5BzVvr/YFykoiMYZVWlr/PX1mDcfM9Qg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <canvas id="barChart" width="400" height="400"></canvas>
+        <section class="charts">
+            <canvas id="barChart" width="300" height="300"></canvas>
+        </section>
+
+        <section class="charts">
+            <canvas id="pieChart" width="300" height="300"></canvas>
+        </section>
+
+        <section class="charts">
+            <canvas id="lineChart" width="300" height="300"></canvas>
+        </section>
 
 
         <script defer src="Charts/BarCharts.js" charset="utf-8"></script>
+        <script defer src="Charts/PieCharts.js" charset="utf-8"></script>
+        <script defer src="Charts/LineCharts.js" charset="utf-8"></script>
     </body>
+
+    <style media="screen">
+        body {
+            box-sizing: border-box;
+            display: flex;
+        }
+
+        .charts {
+            width: 400px;
+        }
+    </style>
 </html>

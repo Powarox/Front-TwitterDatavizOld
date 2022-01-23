@@ -1,6 +1,6 @@
-const ctx = document.getElementById('myChart').getContext('2d');
-const myChart = new Chart(ctx, {
-    type: 'bar',
+const ctx2 = document.getElementById('pieChart').getContext('2d');
+const myChart2 = new Chart(ctx2, {
+    type: 'pie',
     data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [{
