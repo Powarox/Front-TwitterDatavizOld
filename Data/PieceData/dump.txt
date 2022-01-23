@@ -1,0 +1,5 @@
+{ "_id" : ObjectId("60c706ca3890d6db83d7e2d7"), "id" : "1623656138-33360", "date" : "1623656138", "username" : "naomiosaka", "since" : "2021-01-01", "until" : "2021-06-13", "tweets" : [ ] }
+{ "_id" : ObjectId("60c9ae9c5a1a2ef414891d44"), "id" : "1623830172-34553", "date" : "1623830172", "since" : "2021-06-15", "until" : "2021-06-15", "querysearch" : "Hummels", "maxtweets" : "1000", "tweets" : [ ] }
+{ "_id" : ObjectId("60c9ba9c5a1a2ef414891d46"), "id" : "1623833244-36452", "date" : "1623833244", "username" : "boitaorg", "tweets" : [ ] }
+{ "_id" : ObjectId("60c9bc675a1a2ef414891d47"), "id" : "1623833703-36978", "date" : "1623833703", "username" : "naomiosaka", "tweets" : [ ] }
+{ "_id" : ObjectId("60c9bcf95a1a2ef414891d48"), "id" : "1623833849-37084", "date" : "1623833849", "username" : "naomiosaka", "tweets" : [ ] }
