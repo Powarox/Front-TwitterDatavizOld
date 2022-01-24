@@ -5,16 +5,18 @@
         <title></title>
     </head>
     <body>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js" integrity="sha512-TW5s0IT/IppJtu76UbysrBH9Hy/5X41OTAbQuffZFU6lQ1rdcLHzpU5BzVvr/YFykoiMYZVWlr/PX1mDcfM9Qg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js" integrity="sha512-TW5s0IT/IppJtu76UbysrBH9Hy/5X41OTAbQuffZFU6lQ1rdcLHzpU5BzVvr/YFykoiMYZVWlr/PX1mDcfM9Qg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script defer src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 
         <h2>ApexCharts : </h2>
-        <section class="chartsJs">
-            <canvas id="barChart" width="300" height="300"></canvas>
-            <canvas id="lineChart" width="300" height="300"></canvas>
-            <canvas id="pieChart" width="300" height="300"></canvas>
-            <canvas id="dougChart" width="300" height="300"></canvas>
+        <section class="apexCharts">
+            <div id="ApexBarCharts1"></div>
+            <div id="ApexBarCharts2"></div>
+            <div id="ApexBarTreeMap"></div>
+            <div id="ApexBarLine"></div>
+            <div id="ApexBarBubble"></div>
         </section>
-
 
         <h2>Charts JS : </h2>
         <section class="chartsJs">
@@ -31,6 +33,11 @@
         <script defer src="ChartsJs/DougCharts.js" charset="utf-8"></script>
 
         <!-- ApexCharts  -->
+        <script defer src="ApexCharts/BarCharts1.js" charset="utf-8"></script>
+        <script defer src="ApexCharts/BarCharts2.js" charset="utf-8"></script>
+        <script defer src="ApexCharts/TreeMapCharts.js" charset="utf-8"></script>
+        <script defer src="ApexCharts/LineCharts.js" charset="utf-8"></script>
+        <script defer src="ApexCharts/BubbleCharts.js" charset="utf-8"></script>
 
     </body>
 
@@ -39,9 +46,14 @@
             box-sizing: border-box;
         }
 
-        .chartsJs {
+        .chartsJs, .apexCharts {
             display: flex;
             flex-wrap: wrap;
+        }
+        
+        .apexCharts div {
+            max-width: 250px;
+            max-height: 170px;
         }
 
         .chartsJs canvas {
