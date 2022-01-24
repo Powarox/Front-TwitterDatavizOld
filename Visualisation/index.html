@@ -7,39 +7,47 @@
     <body>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js" integrity="sha512-TW5s0IT/IppJtu76UbysrBH9Hy/5X41OTAbQuffZFU6lQ1rdcLHzpU5BzVvr/YFykoiMYZVWlr/PX1mDcfM9Qg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <section class="charts">
+        <h2>ApexCharts : </h2>
+        <section class="chartsJs">
             <canvas id="barChart" width="300" height="300"></canvas>
-        </section>
-
-        <section class="charts">
-            <canvas id="pieChart" width="300" height="300"></canvas>
-        </section>
-
-        <section class="charts">
             <canvas id="lineChart" width="300" height="300"></canvas>
-        </section>
-
-        <section class="charts">
+            <canvas id="pieChart" width="300" height="300"></canvas>
             <canvas id="dougChart" width="300" height="300"></canvas>
         </section>
 
 
-        <script defer src="Charts/BarCharts.js" charset="utf-8"></script>
-        <script defer src="Charts/PieCharts.js" charset="utf-8"></script>
-        <script defer src="Charts/LineCharts.js" charset="utf-8"></script>
-        <script defer src="Charts/DougCharts.js" charset="utf-8"></script>
-        <script defer src="Charts/test.js" charset="utf-8"></script>
+        <h2>Charts JS : </h2>
+        <section class="chartsJs">
+            <canvas id="barChart" width="300" height="300"></canvas>
+            <canvas id="lineChart" width="300" height="300"></canvas>
+            <canvas id="pieChart" width="300" height="300"></canvas>
+            <canvas id="dougChart" width="300" height="300"></canvas>
+        </section>
+
+        <!-- ChartJS  -->
+        <script defer src="ChartsJs/BarCharts.js" charset="utf-8"></script>
+        <script defer src="ChartsJs/PieCharts.js" charset="utf-8"></script>
+        <script defer src="ChartsJs/LineCharts.js" charset="utf-8"></script>
+        <script defer src="ChartsJs/DougCharts.js" charset="utf-8"></script>
+
+        <!-- ApexCharts  -->
+
     </body>
 
     <style media="screen">
         body {
             box-sizing: border-box;
+        }
+
+        .chartsJs {
             display: flex;
             flex-wrap: wrap;
         }
 
-        .charts {
-            width: 400px;
+        .chartsJs canvas {
+            max-width: 200px;
+            max-height: 200px;
         }
+
     </style>
 </html>
