@@ -3,12 +3,16 @@
     <head>
         <meta charset="utf-8">
         <title>Twitter Dataviz</title>
+
         <!-- Google font api -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
         <!-- Google font font-family -->
         <link href="https://fonts.googleapis.com/css2?family=Cabin:wdth,wght@91.7,529&display=swap" rel="stylesheet">
+
+        <!-- ApexCharts -->
+        <script defer src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 
         <!-- Style Page -->
         <link rel="stylesheet" href="app.css">
@@ -24,28 +28,68 @@
         </header>
 
         <main>
-            <section class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div class="img">
+            <section class="">
+                <div class="content">
+                    <h3>Vuejs IHM</h3>
+                    <h1>Developpement</h1>
+                    <p>Voici quelques informations utiles qui vous permettrons de mieux comprendre notre application, et donc de savourer votre expérience parmi nous. 😉</p>
 
+                    <h4>Interface</h4>
+                    <p>Notre application est constitué de plusieur page, nous retrevons tout d'abord la page Home. Ensuite nous avons la page Analytics qui regroupe plusieurs rance. Pour finir nous avons aussi une page About </p>
+
+                    <h4>Données utilisées</h4>
+                    <p>Pour construire cette application nous avons choisi d'utiliser des données provenant de l'API de la SNCF. Les données que nous récupérons correspondent aux régularités mensuelles des trains.</p>
+                </div>
+                <div class="charts" id="ApexBarCharts1"></div>
+            </section>
+
+            <section class="alt">
+                <div class="charts" id="ApexBarCharts2"></div>
+                <div class="content">
+                    <h3>Vuejs IHM</h3>
+                    <h1>Developpement</h1>
+                    <p>Voici quelques informations utiles qui vous permettrons de mieux comprendre notre application, et donc de savourer votre expérience parmi nous. 😉</p>
+
+                    <h4>Interface</h4>
+                    <p>Notre application est constitué de plusieur page, nous retrevons tout d'abord la page Home. Ensuite nous avons la page Analytics qui regroupe plusieurs rance. Pour finir nous avons aussi une page About </p>
+
+                    <h4>Données utilisées</h4>
+                    <p>Pour construire cette application nous avons choisi d'utiliser des données provenant de l'API de la SNCF. Les données que nous récupérons correspondent aux régularités mensuelles des trains.</p>
                 </div>
             </section>
 
-            <section class="content alt">
+            <section class="">
+                <div class="content">
+                    <h3>Vuejs IHM</h3>
+                    <h1>Developpement</h1>
+                    <p>Voici quelques informations utiles qui vous permettrons de mieux comprendre notre application, et donc de savourer votre expérience parmi nous. 😉</p>
 
+                    <h4>Interface</h4>
+                    <p>Notre application est constitué de plusieur page, nous retrevons tout d'abord la page Home. Ensuite nous avons la page Analytics qui regroupe plusieurs rance. Pour finir nous avons aussi une page About </p>
+
+                    <h4>Données utilisées</h4>
+                    <p>Pour construire cette application nous avons choisi d'utiliser des données provenant de l'API de la SNCF. Les données que nous récupérons correspondent aux régularités mensuelles des trains.</p>
+                </div>
+                <div class="charts" id="ApexBarCharts3"></div>
             </section>
 
-            <section class="content">
+            <section class="alt">
+                <div class="charts" id="ApexBarCharts4"></div>
+                <div class="content">
+                    <h3>Vuejs IHM</h3>
+                    <h1>Developpement</h1>
+                    <p>Voici quelques informations utiles qui vous permettrons de mieux comprendre notre application, et donc de savourer votre expérience parmi nous. 😉</p>
 
-            </section>
+                    <h4>Interface</h4>
+                    <p>Notre application est constitué de plusieur page, nous retrevons tout d'abord la page Home. Ensuite nous avons la page Analytics qui regroupe plusieurs rance. Pour finir nous avons aussi une page About </p>
 
-            <section class="content alt">
-
-            </section>
-
-            <section class="content">
-
+                    <h4>Données utilisées</h4>
+                    <p>Pour construire cette application nous avons choisi d'utiliser des données provenant de l'API de la SNCF. Les données que nous récupérons correspondent aux régularités mensuelles des trains.</p>
+                </div>
             </section>
         </main>
+
+        <!-- ApexCharts  -->
+        <script defer src="ApexCharts/BarCharts1.js" charset="utf-8"></script>
     </body>
 </html>
