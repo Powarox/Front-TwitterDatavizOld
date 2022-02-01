@@ -1,0 +1,43 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+
+header {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    justify-content: space-between;
+    align-items: center;
+    color: #3D3B73;
+    background: #FFF;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a {
+    color: #3D3B73;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main .alt {
+    background: #EFF0F9;
+}
+
+.img {
+    width: 300px;
+    height: 225px;
+    background: #348AF4;
+}
+
+main .content {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
