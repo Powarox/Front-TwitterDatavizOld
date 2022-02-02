@@ -18,14 +18,16 @@ body {
 }
 
 .header .nav .logo {
-    width: 75%;
     padding-bottom: 5px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid #FFF;
     transition: 0.4s;
     cursor: pointer;
+}
+
+.header .nav .logo i {
+    margin-right: 10px;
 }
 
 .header .nav .logo:hover {
