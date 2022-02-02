@@ -1,0 +1,38 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.header nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.main {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-gap: 20px;
+    background: #FAFAFA;
+}
+
+.main .center {
+    height: 550px;
+    border-radius: 20px;
+    background: #EEF1F9;
+}
+
+.main .slidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
