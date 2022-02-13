@@ -110,11 +110,5 @@ var options = {
 };
 
 var chart = new ApexCharts(document.querySelector("#ApexBarCharts1"), options);
-var chart2 = new ApexCharts(document.querySelector("#ApexBarCharts2"), options);
-var chart3 = new ApexCharts(document.querySelector("#ApexBarCharts3"), options);
-var chart4 = new ApexCharts(document.querySelector("#ApexBarCharts4"), options);
 
 chart.render();
-chart2.render();
-chart3.render();
-chart4.render();
